@@ -25,7 +25,7 @@ SECRET_KEY = 'm6bwc&j3_+45f#spcfua-hf=*wy+s-u8ly#($=*-144e#)jvj$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'ester.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'esteramcar.pythonanywhere.com']
 
 
 # Application definition
