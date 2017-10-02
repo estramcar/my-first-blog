@@ -26,7 +26,7 @@ SECRET_KEY = 'm6bwc&j3_+45f#spcfua-hf=*wy+s-u8ly#($=*-144e#)jvj$'
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'estramcar.pythonanywhere.com']
-
+LOGIN_REDIRECT_URL = '/'
 
 # Application definition
 
@@ -119,5 +119,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-#static_root tells you where static is lovated. os.path.join ensures that it works in every os--> doesnt care about format
+#static_root tells you where static is located. os.path.join ensures that it works in every os--> doesnt care about format
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
